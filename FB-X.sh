@@ -12,7 +12,7 @@ cd
 apt install git -y
 apt install python2 -y
 pip2 install requests bs4 PTable mechanize tqdm
-git clone https://github.com/RIZKY4/cr4ck
+git clone https://github.com/Yayan-XD/Cr4ck
 sleep 1
 echo $me"["$ku"+"$me"]"$pu" INSTALLED TO MAIN MENU !"
 read -p "Want to run the script? (y/n)" he
@@ -20,14 +20,15 @@ read -p "Want to run the script? (y/n)" he
 if [ $he = y ]
 then
 sleep 1
-cd cr4ck
-python2 cr4ck.py
+cd Cr4ck
+bash setup.sh
+python Cr4ck.py
 fi
 
 if [ $he = n ]
 then
 sleep 1
 cd
-cd FB-X
-python fbX.py
+cd Cr4ck
+python Cr4ck.py
 fi
