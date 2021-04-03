@@ -9,13 +9,14 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 
 cd
+pkg update && pkg upgrade -y
 apt install git -y
 apt install python2 -y
 pip2 install requests bs4 PTable mechanize tqdm
 git clone https://github.com/Yayan-XD/Cr4ck
 sleep 1
 echo $me"["$ku"+"$me"]"$pu" INSTALLED TO MAIN MENU !"
-read -p "Want to run the script? (y/n)" he
+read -p "Want to run the script cuk,(y/n)" he
 
 if [ $he = y ]
 then
@@ -28,7 +29,7 @@ fi
 if [ $he = n ]
 then
 sleep 1
-cd
-cd Cr4ck
-python Cr4ck.py
+https://github.com/AKKUSANTUY/Perusak
+cd Perusak
+python Perusak.py
 fi
